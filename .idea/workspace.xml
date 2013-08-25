@@ -2,25 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b148d20-4354-4c16-8782-37f62c092ded" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/gs/collections/kata/Company.java" afterPath="$PROJECT_DIR$/src/main/java/com/gs/collections/kata/Company.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/gs/collections/kata/Customer.java" afterPath="$PROJECT_DIR$/src/main/java/com/gs/collections/kata/Customer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/gs/collections/kata/Exercise6Test.java" afterPath="$PROJECT_DIR$/src/test/java/com/gs/collections/kata/Exercise6Test.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/gs/collections/kata/Exercise7Test.java" afterPath="$PROJECT_DIR$/src/test/java/com/gs/collections/kata/Exercise7Test.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/gs/collections/kata/Order.java" afterPath="$PROJECT_DIR$/src/main/java/com/gs/collections/kata/Order.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="gs-collections-kata.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="8b148d20-4354-4c16-8782-37f62c092ded" time="1377459313382" ignored="false" />
-    <file path="/fragment.java" changelist="8b148d20-4354-4c16-8782-37f62c092ded" time="1377457797423" ignored="false" />
+    <file path="/Dummy.txt" changelist="8b148d20-4354-4c16-8782-37f62c092ded" time="1377466413886" ignored="false" />
+    <file path="/fragment.java" changelist="8b148d20-4354-4c16-8782-37f62c092ded" time="1377463447083" ignored="false" />
     <file path="/Exercise1Test.java" changelist="8b148d20-4354-4c16-8782-37f62c092ded" time="1374313643086" ignored="false" />
     <file path="/Customer.java" changelist="8b148d20-4354-4c16-8782-37f62c092ded" time="1377457903918" ignored="false" />
     <file path="/Exercise2Test.java" changelist="8b148d20-4354-4c16-8782-37f62c092ded" time="1374314996279" ignored="false" />
-    <file path="/a.dummy" changelist="8b148d20-4354-4c16-8782-37f62c092ded" time="1377457783301" ignored="false" />
+    <file path="/a.dummy" changelist="8b148d20-4354-4c16-8782-37f62c092ded" time="1377463440254" ignored="false" />
     <file path="/CompanyDomainForKata.java" changelist="8b148d20-4354-4c16-8782-37f62c092ded" time="1374324569663" ignored="false" />
     <file path="/Exercise3Test.java" changelist="8b148d20-4354-4c16-8782-37f62c092ded" time="1374321273580" ignored="false" />
     <file path="/Company.java" changelist="8b148d20-4354-4c16-8782-37f62c092ded" time="1377457671257" ignored="false" />
     <file path="/Exercise4Test.java" changelist="8b148d20-4354-4c16-8782-37f62c092ded" time="1374321816749" ignored="false" />
     <file path="/Exercise5Test.java" changelist="8b148d20-4354-4c16-8782-37f62c092ded" time="1374326032002" ignored="false" />
     <file path="/Exercise6Test.java" changelist="8b148d20-4354-4c16-8782-37f62c092ded" time="1377458344274" ignored="false" />
+    <file path="/Order.java" changelist="8b148d20-4354-4c16-8782-37f62c092ded" time="1377461471830" ignored="false" />
+    <file path="/Exercise7Test.java" changelist="8b148d20-4354-4c16-8782-37f62c092ded" time="1377463413502" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,57 +83,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Exercise6Test.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/gs/collections/kata/Exercise6Test.java">
+      <file leaf-file-name="Exercise8Test.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/gs/collections/kata/Exercise8Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="11" selection-start="1344" selection-end="1344" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Company.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gs/collections/kata/Company.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="25" selection-start="1186" selection-end="1186" vertical-scroll-proportion="0.36998853">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Customer.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gs/collections/kata/Customer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="69" column="79" selection-start="2193" selection-end="2193" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1336#1545#0" expanded="true" />
-                <element signature="e#1348#1366#0" expanded="true" />
-                <element signature="e#1530#1531#0" expanded="true" />
-                <element signature="e#2345#2346#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Exercise4Test.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/gs/collections/kata/Exercise4Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="39" selection-start="1161" selection-end="1161" vertical-scroll-proportion="0.0">
+            <state line="30" column="13" selection-start="1093" selection-end="1093" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Exercise5Test.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/gs/collections/kata/Exercise5Test.java">
+      <file leaf-file-name="Exercise7Test.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/gs/collections/kata/Exercise7Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="66" column="46" selection-start="2561" selection-end="2561" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="32" column="39" selection-start="1181" selection-end="1181" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -139,8 +106,19 @@
       <file leaf-file-name="Order.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/gs/collections/kata/Order.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="48" selection-start="1292" selection-end="1292" vertical-scroll-proportion="0.0">
+            <state line="83" column="76" selection-start="2755" selection-end="2755" vertical-scroll-proportion="0.0">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Customer.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gs/collections/kata/Customer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="63" column="76" selection-start="2026" selection-end="2026" vertical-scroll-proportion="0.8052692">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -168,13 +146,14 @@
         <option value="$PROJECT_DIR$/src/test/java/com/gs/collections/kata/Exercise3Test.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/gs/collections/kata/Exercise4Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gs/collections/kata/Supplier.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gs/collections/kata/Order.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/gs/collections/kata/Exercise8Test.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/gs/collections/kata/Exercise5Test.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/gs/collections/kata/CompanyDomainForKata.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gs/collections/kata/Customer.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/gs/collections/kata/Exercise6Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gs/collections/kata/Company.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/gs/collections/kata/Exercise7Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gs/collections/kata/Order.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gs/collections/kata/Customer.java" />
       </list>
     </option>
   </component>
@@ -267,6 +246,18 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kata" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -275,23 +266,40 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="OverrideImplement.combined" value="true" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="292" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="MemberChooser.sorted" value="false" />
+    <property name="OverrideImplement.combined" value="true" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="292" />
     <property name="recentsLimit" value="5" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="296" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="293" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="971" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="967" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="292" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="285" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="FullScreen" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="IntroduceConstantDialog.RECENTS_KEY">
+      <recent name="com.gs.collections.kata.Order" />
       <recent name="com.gs.collections.kata.Customer" />
       <recent name="com.gs.collections.kata.CompanyDomainForKata" />
     </key>
@@ -299,7 +307,7 @@
       <recent name="com.gs.collections.kata.CompanyDomainForKata" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Exercise6Test">
+  <component name="RunManager" selected="JUnit.All in GSCollectionsKata">
     <configuration default="false" name="Exercise5Test" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -314,62 +322,6 @@
       <option name="MAIN_CLASS_NAME" value="com.gs.collections.kata.Exercise5Test" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Exercise5Test.filterOrderValues" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.gs.collections.kata.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="GSCollectionsKata" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.gs.collections.kata" />
-      <option name="MAIN_CLASS_NAME" value="com.gs.collections.kata.Exercise5Test" />
-      <option name="METHOD_NAME" value="filterOrderValues" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Exercise5Test.filterOrders" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.gs.collections.kata.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="GSCollectionsKata" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.gs.collections.kata" />
-      <option name="MAIN_CLASS_NAME" value="com.gs.collections.kata.Exercise5Test" />
-      <option name="METHOD_NAME" value="filterOrders" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -447,6 +399,65 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
+    <configuration default="false" name="Exercise1Test and 6 more" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="GSCollectionsKata" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="pattern" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns>
+        <pattern testClass="com.gs.collections.kata.Exercise1Test" />
+        <pattern testClass="com.gs.collections.kata.Exercise2Test" />
+        <pattern testClass="com.gs.collections.kata.Exercise3Test" />
+        <pattern testClass="com.gs.collections.kata.Exercise4Test" />
+        <pattern testClass="com.gs.collections.kata.Exercise5Test" />
+        <pattern testClass="com.gs.collections.kata.Exercise6Test" />
+        <pattern testClass="com.gs.collections.kata.Exercise7Test" />
+      </patterns>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Exercise7Test" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.gs.collections.kata.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="GSCollectionsKata" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.gs.collections.kata" />
+      <option name="MAIN_CLASS_NAME" value="com.gs.collections.kata.Exercise7Test" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -507,18 +518,18 @@
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="JUnit.All in GSCollectionsKata" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.Exercise5Test" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.Exercise5Test.filterOrderValues" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.Exercise5Test.filterOrders" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.Exercise6Test" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.Exercise1Test and 4 more" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.Exercise6Test" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.Exercise1Test and 4 more" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.Exercise1Test and 6 more" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.Exercise7Test" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.Exercise6Test" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.Exercise1Test and 4 more" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.Exercise5Test" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.Exercise5Test.filterOrders" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.Exercise5Test.filterOrderValues" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.Exercise7Test" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.Exercise1Test and 6 more" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.Exercise6Test" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.Exercise1Test and 4 more" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.Exercise5Test" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
@@ -542,6 +553,11 @@
       <created>1374307962533</created>
       <updated>1374307962533</updated>
     </task>
+    <task id="LOCAL-00001" summary="finished Exercise6Test.java">
+      <created>1377459502349</created>
+      <updated>1377459502349</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -577,14 +593,14 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39933258" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.45939934" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4633731" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20010673" sideWeight="0.6718576" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20010673" sideWeight="0.67074525" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.59844273" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -635,7 +651,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished Exercise6Test.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished Exercise7Test.java" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -650,6 +666,7 @@
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="finished Exercise6Test.java" />
+    <MESSAGE value="finished Exercise7Test.java" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -659,107 +676,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/gs/collections/kata/Exercise8Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="34" selection-start="2098" selection-end="2098" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gs/collections/kata/Supplier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="29" selection-start="943" selection-end="943" vertical-scroll-proportion="0.5063001">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/gs/collections/kata/Exercise3Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="92" selection-start="2443" selection-end="2443" vertical-scroll-proportion="0.12371134">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/gs/collections/kata/Exercise1Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="13" selection-start="841" selection-end="841" vertical-scroll-proportion="0.116838485">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/source/gs-collections-api-3.2.0-sources.jar!/com/gs/collections/api/list/MutableList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="65" selection-start="1375" selection-end="1375" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/source/gs-collections-api-3.2.0-sources.jar!/com/gs/collections/api/list/ListIterable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="21" selection-start="1606" selection-end="1606" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/source/gs-collections-api-3.2.0-sources.jar!/com/gs/collections/api/RichIterable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="25" selection-start="2736" selection-end="2736" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Java/jdk1.8.0/src.zip!/java/lang/Iterable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="17" selection-start="771" selection-end="771" vertical-scroll-proportion="0.33333334">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/lib/source/gs-collections-api-3.2.0-sources.jar!/com/gs/collections/api/InternalIterable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="27" column="19" selection-start="1088" selection-end="1088" vertical-scroll-proportion="0.2142039">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/gs/collections/kata/CompanyDomainForKata.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="128" column="33" selection-start="5068" selection-end="5068" vertical-scroll-proportion="0.74684995">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/gs/collections/kata/Exercise4Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="39" selection-start="1161" selection-end="1161" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gs/collections/kata/Order.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="48" selection-start="1292" selection-end="1292" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/gs/collections/kata/Exercise5Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="46" selection-start="2561" selection-end="2561" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gs/collections/kata/Customer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="79" selection-start="2193" selection-end="2193" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1336#1545#0" expanded="true" />
-            <element signature="e#1348#1366#0" expanded="true" />
-            <element signature="e#1530#1531#0" expanded="true" />
-            <element signature="e#2345#2346#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -772,9 +692,106 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/source/gs-collections-3.2.0-sources.jar!/com/gs/collections/impl/block/function/AddFunction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="61" selection-start="1716" selection-end="1716" vertical-scroll-proportion="0.29209623">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/source/gs-collections-3.2.0-sources.jar!/com/gs/collections/impl/collection/mutable/CollectionAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="121" column="43" selection-start="4299" selection-end="4299" vertical-scroll-proportion="0.33333334">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/gs/collections/kata/CompanyDomainForKata.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="132" column="36" selection-start="5168" selection-end="5168" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/gs/collections/kata/Exercise1Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="13" selection-start="841" selection-end="841" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/gs/collections/kata/Exercise2Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="13" selection-start="1010" selection-end="1010" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/gs/collections/kata/Exercise3Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="56" selection-start="1354" selection-end="1354" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/gs/collections/kata/Exercise4Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="39" selection-start="1161" selection-end="1161" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/gs/collections/kata/Exercise5Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="66" column="46" selection-start="2561" selection-end="2561" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gs/collections/kata/Supplier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="13" selection-start="814" selection-end="814" vertical-scroll-proportion="0.1522388">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gs/collections/kata/Company.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="25" selection-start="1186" selection-end="1186" vertical-scroll-proportion="0.36998853">
+        <state line="66" column="22" selection-start="2153" selection-end="2153" vertical-scroll-proportion="1.0126002">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/gs/collections/kata/Exercise8Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="13" selection-start="1093" selection-end="1093" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/gs/collections/kata/Exercise7Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="39" selection-start="1181" selection-end="1181" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gs/collections/kata/Order.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="83" column="76" selection-start="2755" selection-end="2755" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gs/collections/kata/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="76" selection-start="2026" selection-end="2026" vertical-scroll-proportion="0.8052692">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

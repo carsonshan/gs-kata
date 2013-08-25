@@ -32,13 +32,7 @@ public class Customer {
     public static final Function<Customer, Iterable<Order>> TO_ORDERS = Customer::getOrders;
 
 
-    public static final Function<Customer, Double> TO_TOTAL_ORDER_VALUE =
-            new Function<Customer, Double>() {
-                @Override
-                public Double valueOf(Customer customer) {
-                    return customer.getTotalOrderValue();
-                }
-            };
+    public static final Function<Customer, Double> TO_TOTAL_ORDER_VALUE = (Function<Customer, Double>) Customer::getTotalOrderValue;
 
     private final String name;
     private final String city;
@@ -67,12 +61,7 @@ public class Customer {
     }
 
     public double getTotalOrderValue() {
-        MutableList<Double> orderValues = ListIterate.collect(this.orders, new Function<Order, Double>() {
-            @Override
-            public Double valueOf(Order order) {
-                return order.getValue();
-            }
-        });
+        MutableList<Double> orderValues = ListIterate.collect(this.orders, (Function<Order, Double>) Order::getValue);
         return orderValues.injectInto(0.0, AddFunction.DOUBLE_TO_DOUBLE);
     }
 }

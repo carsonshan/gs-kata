@@ -22,6 +22,7 @@ import java.util.List;
 
 import com.gs.collections.api.block.function.Function;
 import com.gs.collections.api.block.predicate.Predicate;
+import com.gs.collections.api.block.procedure.Procedure;
 import com.gs.collections.impl.block.function.AddFunction;
 import com.gs.collections.impl.collection.mutable.CollectionAdapter;
 import com.gs.collections.impl.utility.Iterate;
@@ -33,19 +34,15 @@ import com.gs.collections.impl.utility.Iterate;
 public class Order {
     public static final Function<Order, Double> TO_VALUE = (Function<Order, Double>) Order::getValue;
 
-    public static final Predicate<Order> IS_DELIVERED = new Predicate<Order>() {
-        @Override
-        public boolean accept(Order order) {
-            return order.isDelivered;
-        }
-    };
+    public static final Predicate<Order> IS_DELIVERED = order -> order.isDelivered;
 
     public static final Function<Order, Iterable<LineItem>> TO_LINE_ITEMS = order -> order.lineItems;
+    public static final Procedure<Order> DELIVER = (Procedure<Order>) Order::deliver;
 
     private static int nextOrderNumber = 1;
 
     private final int orderNumber;
-    private final List<LineItem> lineItems = new ArrayList<LineItem>();
+    private final List<LineItem> lineItems = new ArrayList<>();
     private boolean isDelivered;
 
     public Order() {
@@ -79,12 +76,7 @@ public class Order {
     }
 
     public double getValue() {
-        Collection<Double> itemValues = Iterate.collect(this.lineItems, new Function<LineItem, Double>() {
-            @Override
-            public Double valueOf(LineItem lineItem) {
-                return lineItem.getValue();
-            }
-        });
+        Collection<Double> itemValues = Iterate.collect(this.lineItems, (Function<LineItem, Double>) LineItem::getValue);
 
         return CollectionAdapter.adapt(itemValues).injectInto(0.0, AddFunction.DOUBLE_TO_DOUBLE);
     }
