@@ -16,11 +16,9 @@
 
 package com.gs.collections.kata;
 
-import com.gs.collections.api.block.function.Function;
 import com.gs.collections.api.block.predicate.Predicate;
 import com.gs.collections.api.list.MutableList;
 import com.gs.collections.impl.list.mutable.FastList;
-import org.junit.Assert;
 
 /**
  * A company has a {@link MutableList} of {@link Customer}s.  It has an array of {@link Supplier}s, and a name.
@@ -49,7 +47,7 @@ public class Company {
     }
 
     public MutableList<Order> getOrders() {
-        return getCustomers().flatCollect(Customer::getOrders);
+        return getCustomers().flatCollect(Customer.TO_ORDERS);
     }
 
     public Customer getMostRecentCustomer() {

@@ -16,14 +16,11 @@
 
 package com.gs.collections.kata;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import com.gs.collections.api.block.function.Function;
 import com.gs.collections.api.list.MutableList;
 import com.gs.collections.impl.block.function.AddFunction;
+import com.gs.collections.impl.list.mutable.FastList;
 import com.gs.collections.impl.utility.ListIterate;
-import org.junit.Assert;
 
 /**
  * Customers have a name, city and a list of {@link Order}s
@@ -32,6 +29,9 @@ public class Customer {
     public static final Function<Customer, String> TO_NAME = Customer::getName;
 
     public static final Function<Customer, String> TO_CITY = Customer::getCity;
+    public static final Function<Customer, Iterable<Order>> TO_ORDERS = Customer::getOrders;
+
+
     public static final Function<Customer, Double> TO_TOTAL_ORDER_VALUE =
             new Function<Customer, Double>() {
                 @Override
@@ -43,7 +43,7 @@ public class Customer {
     private final String name;
     private final String city;
 
-    private final List<Order> orders = new ArrayList<Order>();
+    private final MutableList<Order> orders = FastList.newList();
 
     public Customer(String name, String city) {
         this.name = name;
@@ -58,7 +58,7 @@ public class Customer {
         return this.name;
     }
 
-    public List<Order> getOrders() {
+    public MutableList<Order> getOrders() {
         return this.orders;
     }
 
