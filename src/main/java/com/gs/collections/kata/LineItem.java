@@ -21,44 +21,32 @@ import com.gs.collections.api.block.function.Function;
 /**
  * An Item has a name and a value.
  */
-public class LineItem
-{
-    public static final Function<LineItem, String> TO_NAME = new Function<LineItem, String>()
-    {
-        @Override
-        public String valueOf(LineItem lineItem)
-        {
-            return lineItem.name;
-        }
-    };
+public class LineItem {
+    public static final Function<LineItem, String> TO_NAME = LineItem::getName;
+    public static final Function<LineItem, Double> TO_VALUE = LineItem::getValue;
 
     private String name;
     private final double value;
 
-    public String getName()
-    {
+    public String getName() {
         return this.name;
     }
 
-    public void setName(String name)
-    {
+    public void setName(String name) {
         this.name = name;
     }
 
-    public double getValue()
-    {
+    public double getValue() {
         return this.value;
     }
 
-    public LineItem(String name, double value)
-    {
+    public LineItem(String name, double value) {
         this.name = name;
         this.value = value;
     }
 
     @Override
-    public String toString()
-    {
+    public String toString() {
         return this.name + " $ " + this.getValue();
     }
 }

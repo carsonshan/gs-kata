@@ -27,6 +27,7 @@ public abstract class CompanyDomainForKata {
     public static final String CUSTOMER_MARY = "Mary";
     public static final String CUSTOMER_BILL = "Bill";
     public static final String ITEM_SANDWICH_TOASTER = "sandwich toaster";
+    public static final String ITEM_SAUCER = "saucer";
     protected final Company company = new Company("Bloggs Shed Supplies");
 
     @Before
@@ -38,7 +39,7 @@ public abstract class CompanyDomainForKata {
 
     private void setUpSuppliers() {
         this.company.addSupplier(new Supplier("Shedtastic", new String[]{"shed", "big shed", "huge shed"}));
-        this.company.addSupplier(new Supplier("Splendid Crocks", new String[]{"cup", "saucer", "bowl"}));
+        this.company.addSupplier(new Supplier("Splendid Crocks", new String[]{"cup", ITEM_SAUCER, "bowl"}));
         this.company.addSupplier(new Supplier("Annoying Pets", new String[]{"dog", "cat", "goldfish"}));
         this.company.addSupplier(new Supplier("Gnomes 'R' Us", new String[]{"gnome"}));
         this.company.addSupplier(new Supplier("Furniture Hamlet", new String[]{"table", "sofa", "chair"}));
@@ -55,7 +56,7 @@ public abstract class CompanyDomainForKata {
          */
         fredOrder.addLineItems(new LineItem("cup", 1.5), 3);
 
-        fredOrder.addLineItems(new LineItem("saucer", 1.0), 3);
+        fredOrder.addLineItems(new LineItem(ITEM_SAUCER, 1.0), 3);
         fredOrder.addLineItem(new LineItem("chair", 12.50));
         fredOrder.addLineItem(new LineItem("table", 1.0));
 
@@ -69,7 +70,7 @@ public abstract class CompanyDomainForKata {
 
         maryOrder.addLineItems(new LineItem("cup", 1.5), 4);
 
-        maryOrder.addLineItems(new LineItem("saucer", 1.5), 4);
+        maryOrder.addLineItems(new LineItem(ITEM_SAUCER, 1.5), 4);
         maryOrder.addLineItem(new LineItem("sofa", 120.0));
         maryOrder.addLineItem(new LineItem("dog", 75.0));
 

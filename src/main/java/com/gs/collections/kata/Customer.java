@@ -29,7 +29,7 @@ public class Customer {
     public static final Function<Customer, String> TO_NAME = Customer::getName;
 
     public static final Function<Customer, String> TO_CITY = Customer::getCity;
-    public static final Function<Customer, Iterable<Order>> TO_ORDERS = Customer::getOrders;
+    public static final Function<Customer, MutableList<Order>> TO_ORDERS = Customer::getOrders;
 
 
     public static final Function<Customer, Double> TO_TOTAL_ORDER_VALUE = (Function<Customer, Double>) Customer::getTotalOrderValue;

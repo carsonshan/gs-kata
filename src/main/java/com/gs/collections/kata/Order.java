@@ -20,6 +20,7 @@ import com.gs.collections.api.bag.MutableBag;
 import com.gs.collections.api.block.function.Function;
 import com.gs.collections.api.block.predicate.Predicate;
 import com.gs.collections.api.block.procedure.Procedure;
+import com.gs.collections.api.list.MutableList;
 import com.gs.collections.impl.bag.mutable.HashBag;
 import com.gs.collections.impl.block.function.AddFunction;
 
@@ -64,7 +65,7 @@ public class Order {
         this.lineItems.add(aLineItem);
     }
 
-    public List<LineItem> getLineItems() {
+    public MutableList<LineItem> getLineItems() {
         return this.lineItems.toList();
     }
 
