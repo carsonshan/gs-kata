@@ -1,4 +1,5 @@
 # GS Collections Kata
+# Code Kata
 
 ## What is a Code Kata?
 A _kata_ is an exercise in martial arts. A code kata is an exercise in programming which helps hone your skills through practice and repetition. You can find out more about code Katas in general [here](http://codekata.pragprog.com).
